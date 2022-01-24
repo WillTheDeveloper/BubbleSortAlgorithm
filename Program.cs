@@ -9,6 +9,8 @@ namespace BubbleSortAlgorithm
         static void Main(string[] args)
         {
             int[] sequence = ConstructSequence();
+            Console.WriteLine(sequence);
+            ShowUnsorted();
         }
 
         static int[] ConstructSequence()

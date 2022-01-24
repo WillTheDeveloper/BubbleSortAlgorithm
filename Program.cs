@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * The purpose of this program is to be able to use the bubble sorting algorithm on a sequence of numbers.
+ * 24/01/2022
+ * William Burton
+ */
+
+using System;
 
 namespace BubbleSortAlgorithm
 {

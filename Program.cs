@@ -16,7 +16,6 @@ namespace BubbleSortAlgorithm
         {
             int[] sequence = ConstructSequence(); // Get the sequence of numbers
             Console.WriteLine(sequence); // Output the sequence of numbers onto console
-            ShowUnsorted();
         }
 
         static int[] ConstructSequence() // This will create the sequence but initially will have a set array

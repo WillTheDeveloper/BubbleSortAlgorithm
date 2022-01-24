@@ -4,9 +4,28 @@ namespace BubbleSortAlgorithm
 {
     class Program
     {
+        
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] sequence = ConstructSequence();
+        }
+
+        static int[] ConstructSequence()
+        {
+            int[] sequence = { 5, 10, 15, 20, 3, 2, 31, 45, 69, 100, 99 };
+
+            return sequence;
+        }
+
+        static void ShowUnsorted()
+        {
+
+        }
+
+        static void ShowSorted()
+        {
+
         }
     }
 }

@@ -42,7 +42,6 @@ namespace BubbleSortAlgorithm
             int[] initial = {4, 7, 3, 1, 9, 12, 20, 45, 74, 69, 55, 1};
 
             int number;
-            int switch;
 
             Console.WriteLine("Your initial list is:");
             foreach (int i in initial)
@@ -52,9 +51,9 @@ namespace BubbleSortAlgorithm
 
             for(number = 0; number < initial.Length -2; number++)
             {
-                for(switch = 0; switch < initial.Length - 2; switch++)
+                for(int i = 0; i < initial.Length - 2; i++)
                 {
-                    if(initial[switch] > initial[switch + 1])
+                    if(initial[i] > initial[i + 1])
                     {
 
                     }

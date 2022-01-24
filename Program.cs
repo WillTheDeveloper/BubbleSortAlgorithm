@@ -39,7 +39,7 @@ namespace BubbleSortAlgorithm
 
         static void Main(string[] args)
         {
-            
+            int[] initial = {4, 7, 3, 1, 9, 12, 20, 45, 74, 69, 55, 1};
         }
     }
 }

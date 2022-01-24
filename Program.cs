@@ -14,15 +14,29 @@ namespace BubbleSortAlgorithm
 
         static void Main(string[] args)
         {
-            int[] sequence = ConstructSequence(); // Get the sequence of numbers
-            Console.WriteLine(sequence); // Output the sequence of numbers onto console
+            try
+            {
+                int[] sequence = ConstructSequence(); // Get the sequence of numbers
+                Console.WriteLine(sequence.ToString()); // Output the sequence of numbers onto console
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("'Main' method errored trying to retrieve sequence: " + e);
+            }
+            
         }
 
         static int[] ConstructSequence() // This will create the sequence but initially will have a set array
         {
-            int[] sequence = { 5, 10, 15, 20, 3, 2, 31, 45, 69, 100, 99 }; // The sequence of numbers used without the program
-
-            return sequence;
+            try
+            {
+                int[] sequence = { 5, 10, 15, 20, 3, 2, 31, 45, 69, 100, 99 }; // The sequence of numbers used without the program
+                return sequence;
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Could not construct the sequence: " + e);
+            }
         }
 
         static void ShowUnsorted() // This will output the unsorted sequence

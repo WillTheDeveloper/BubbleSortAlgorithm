@@ -20,7 +20,15 @@ namespace BubbleSortAlgorithm
 
         static void ShowUnsorted()
         {
+            int[] sequence = ConstructSequence();
 
+            string hello;
+
+            foreach(int i in sequence)
+            {
+                hello = i + ", ";
+            }
+            return;
         }
 
         static void ShowSorted()
